@@ -1,0 +1,15 @@
+{
+  "name": "@jpalala/gitquick",
+  "version": "1.0.0",
+  "description": "a simple package to show some git history using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joe Palala <joe@mentorsdojo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "shelljs": "^0.8.3"
+  }
+}
