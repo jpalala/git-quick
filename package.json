@@ -2,6 +2,10 @@
   "name": "@jpalala/gitquick",
   "version": "1.0.0",
   "description": "a simple package to show some git history using nodejs",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/jpalala/gitquick"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

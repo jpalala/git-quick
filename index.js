@@ -1,10 +1,10 @@
 var shell = require('shelljs');
-var gg = require('git-guilt');
 const program = require('commander');
 
 program
   .option('-g, --guilt', 'output guilt 1 guilt log down')
-  .option('-log, --log', 'output the log');
+  .option('-l, --log', 'output the simple log')
+  .option('-d, --debug', 'debug');
 
 program.parse(process.argv);
 
@@ -13,7 +13,10 @@ if (!shell.which('git')) {
   shell.exit(1);
 }
 
-console.log(program.opts());
+if(program.debug) {
+	console.log(program.opts());
+	shell.exit(1);
+}
 
 if(program.guilt) {
 	shell.exec('git-guilt HEAD~1 HEAD');
