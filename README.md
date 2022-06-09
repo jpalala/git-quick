@@ -3,7 +3,7 @@
 some one liners to use git
 
 ```bash
-  npm install -g gitquick
+  npm install -g @jpalala/gitquick
 ```
 
 ## how to use
