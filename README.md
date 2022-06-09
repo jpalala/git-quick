@@ -1,3 +1,7 @@
+# DEPECRATED
+
+See [gitol](github.com/](https://github.com/jpalala/gitol) instead.
+
 # gitquick
 
 some one liners to use git
