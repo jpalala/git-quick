@@ -1,6 +1,6 @@
 # DEPECRATED
 
-See [gitol](github.com/](https://github.com/jpalala/gitol) instead.
+See [gitol](https://github.com/jpalala/gitol) instead.
 
 # gitquick
 
